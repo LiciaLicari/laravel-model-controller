@@ -1,7 +1,7 @@
 <?php
 
-use App\Http\Controllers\Guests\PageController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Guests\PageController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [PageController::class, 'index'])->name('welcome');
+Route::get('/', [PageController::class, 'index'])->name('home');
